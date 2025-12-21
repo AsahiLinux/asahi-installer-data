@@ -3,8 +3,8 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-VERSION="Fedora Linux 42"
-TARGET_VERSION="Fedora Asahi Remix 42"
+VERSION="Fedora Linux 43"
+TARGET_VERSION="Fedora Asahi Remix 43"
 PACKAGE_BASE="https://asahilinux-fedora.b-cdn.net/os/"
 
 curl -s https://fedora-asahi-remix.org/installer_data.json > /tmp/far.json
