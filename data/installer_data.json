@@ -1,11 +1,11 @@
 {
     "os_list": [
         {
-            "name": "Fedora Asahi Remix 43 with KDE Plasma",
+            "name": "Fedora Asahi Remix 44 with KDE Plasma",
             "default_os_name": "Fedora Linux with KDE Plasma",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-43-kde-202603171600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-kde-202604271600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -13,8 +13,8 @@
                 "13.5"
             ],
             "extras": [
-                "https://codecs.fedoraproject.org/openh264/43/aarch64/Packages/m/mozilla-openh264-2.6.0-2.fc43.aarch64.rpm",
-                "https://codecs.fedoraproject.org/openh264/43/aarch64/Packages/o/openh264-2.6.0-2.fc43.aarch64.rpm"
+                "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/m/mozilla-openh264-2.6.0-3.fc44.aarch64.rpm",
+                "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/o/openh264-2.6.0-3.fc44.aarch64.rpm"
             ],
             "partitions": [
                 {
@@ -22,7 +22,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x5ad4df86",
+                    "volume_id": "0x2fa765ab",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -36,18 +36,18 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "14629711872B",
+                    "size": "14119055360B",
                     "expand": true,
                     "image": "root.img"
                 }
             ]
         },
         {
-            "name": "Fedora Asahi Remix 43 with GNOME",
+            "name": "Fedora Asahi Remix 44 with GNOME",
             "default_os_name": "Fedora Linux with GNOME",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-43-gnome-202603171600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-gnome-202604271600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -55,8 +55,8 @@
                 "13.5"
             ],
             "extras": [
-                "https://codecs.fedoraproject.org/openh264/43/aarch64/Packages/m/mozilla-openh264-2.6.0-2.fc43.aarch64.rpm",
-                "https://codecs.fedoraproject.org/openh264/43/aarch64/Packages/o/openh264-2.6.0-2.fc43.aarch64.rpm"
+                "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/m/mozilla-openh264-2.6.0-3.fc44.aarch64.rpm",
+                "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/o/openh264-2.6.0-3.fc44.aarch64.rpm"
             ],
             "partitions": [
                 {
@@ -64,7 +64,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x84ba5639",
+                    "volume_id": "0x6f6a6df5",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -78,18 +78,18 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "11184091136B",
+                    "size": "10976473088B",
                     "expand": true,
                     "image": "root.img"
                 }
             ]
         },
         {
-            "name": "Fedora Asahi Remix 43 Server",
+            "name": "Fedora Asahi Remix 44 Server",
             "default_os_name": "Fedora Linux Server",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-43-server-202603171600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-server-202604271600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -103,7 +103,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x804be8a6",
+                    "volume_id": "0x379693b5",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -117,18 +117,18 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "4626296832B",
+                    "size": "4521439232B",
                     "expand": true,
                     "image": "root.img"
                 }
             ]
         },
         {
-            "name": "Fedora Asahi Remix 43 Minimal",
+            "name": "Fedora Asahi Remix 44 Minimal",
             "default_os_name": "Fedora Linux Minimal",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-43-minimal-202603171600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-minimal-202604271600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -142,7 +142,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x74703838",
+                    "volume_id": "0xf4ee033b",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -156,7 +156,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "4345278464B",
+                    "size": "4241469440B",
                     "expand": true,
                     "image": "root.img"
                 }
