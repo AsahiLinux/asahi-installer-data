@@ -163,8 +163,31 @@
             ]
         },
         {
+            "name": "UEFI environment only (m1n1 + U-Boot + ESP) ",
+            "default_os_name": "UEFI boot",
+            "boot_object": "m1n1.bin",
+            "next_object": "m1n1/boot.bin",
+            "package": "uefi-only-20260810-asahi-7.1.6-1.zip",
+            "supported_fw": [
+                "13.5",
+                "14.8.3"
+            ],
+            "partitions": [
+                {
+                    "name": "EFI",
+                    "type": "EFI",
+                    "size": "500MB",
+                    "format": "fat",
+                    "copy_firmware": true,
+                    "copy_installer_data": true,
+                    "source": "esp"
+                }
+            ]
+        },
+        {
             "name": "UEFI environment only (m1n1 + U-Boot + ESP)",
             "default_os_name": "UEFI boot",
+            "expert": true,
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
             "package": "uefi-only-20260301-asahi-6.18.10-1.zip",
