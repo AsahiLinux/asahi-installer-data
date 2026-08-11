@@ -185,7 +185,7 @@
             ]
         },
         {
-            "name": "UEFI environment only (m1n1 + U-Boot + ESP)",
+            "name": "UEFI environment only (previous version, 6.18 DTS)",
             "default_os_name": "UEFI boot",
             "expert": true,
             "boot_object": "m1n1.bin",
