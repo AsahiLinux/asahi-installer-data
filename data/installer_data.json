@@ -163,7 +163,7 @@
             ]
         },
         {
-            "name": "UEFI environment only (m1n1 + U-Boot + ESP) ",
+            "name": "UEFI environment only (m1n1 + U-Boot + ESP)",
             "default_os_name": "UEFI boot",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
