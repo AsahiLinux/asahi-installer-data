@@ -5,12 +5,13 @@
             "default_os_name": "Fedora Linux with KDE Plasma",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-kde-202607221600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-kde-202608312144.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
                 "12.3.1",
-                "13.5"
+                "13.5",
+                "14.8.3"
             ],
             "extras": [
                 "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/m/mozilla-openh264-2.6.0-3.fc44.aarch64.rpm",
@@ -22,7 +23,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x195fb43a",
+                    "volume_id": "0x1fcf444d",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -36,7 +37,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "14248030208B",
+                    "size": "14468231168B",
                     "expand": true,
                     "image": "root.img"
                 }
@@ -47,12 +48,13 @@
             "default_os_name": "Fedora Linux with GNOME",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-gnome-202607221600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-gnome-202608312144.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
                 "12.3.1",
-                "13.5"
+                "13.5",
+                "14.8.3"
             ],
             "extras": [
                 "https://codecs.fedoraproject.org/openh264/44/aarch64/Packages/m/mozilla-openh264-2.6.0-3.fc44.aarch64.rpm",
@@ -64,7 +66,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x92b9ca47",
+                    "volume_id": "0x7a12dc60",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -78,7 +80,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "10932432896B",
+                    "size": "10995347456B",
                     "expand": true,
                     "image": "root.img"
                 }
@@ -89,12 +91,13 @@
             "default_os_name": "Fedora Linux Server",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-server-202607221600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-server-202608312144.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
                 "12.3.1",
-                "13.5"
+                "13.5",
+                "14.8.3"
             ],
             "extras": {},
             "partitions": [
@@ -103,7 +106,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x2d29ccb0",
+                    "volume_id": "0x3da0bbbc",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -117,7 +120,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "4456427520B",
+                    "size": "4497321984B",
                     "expand": true,
                     "image": "root.img"
                 }
@@ -128,12 +131,13 @@
             "default_os_name": "Fedora Linux Minimal",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-minimal-202607221600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-minimal-202608312144.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
                 "12.3.1",
-                "13.5"
+                "13.5",
+                "14.8.3"
             ],
             "extras": {},
             "partitions": [
@@ -142,7 +146,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0xc5db768e",
+                    "volume_id": "0xd63d825",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -156,7 +160,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "4173312000B",
+                    "size": "4214206464B",
                     "expand": true,
                     "image": "root.img"
                 }
