@@ -5,7 +5,7 @@
             "default_os_name": "Fedora Linux with KDE Plasma",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-kde-202609021600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-kde-202609041600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -23,7 +23,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0xb17350c7",
+                    "volume_id": "0x264e2b13",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -37,7 +37,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "14469279744B",
+                    "size": "14471376896B",
                     "expand": true,
                     "image": "root.img"
                 }
@@ -48,7 +48,7 @@
             "default_os_name": "Fedora Linux with GNOME",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-gnome-202609021600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-gnome-202609041600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -66,7 +66,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0xe3b10f9f",
+                    "volume_id": "0xa1198c0",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -80,7 +80,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "10993250304B",
+                    "size": "10996396032B",
                     "expand": true,
                     "image": "root.img"
                 }
@@ -91,7 +91,7 @@
             "default_os_name": "Fedora Linux Server",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-server-202609021600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-server-202609041600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -106,7 +106,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0xe24fc012",
+                    "volume_id": "0x582a4492",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -131,7 +131,7 @@
             "default_os_name": "Fedora Linux Minimal",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-minimal-202609021600.zip",
+            "package": "https://asahilinux-fedora.b-cdn.net/os/fedora-44-minimal-202609041600.zip",
             "icon": "fedora.icns",
             "supported_fw": [
                 "12.3",
@@ -146,7 +146,7 @@
                     "type": "EFI",
                     "size": "524288000B",
                     "format": "fat",
-                    "volume_id": "0x3ab9ec6f",
+                    "volume_id": "0x13182c36",
                     "copy_firmware": true,
                     "copy_installer_data": true,
                     "source": "esp"
@@ -160,7 +160,7 @@
                 {
                     "name": "Root",
                     "type": "Linux",
-                    "size": "4214206464B",
+                    "size": "4216303616B",
                     "expand": true,
                     "image": "root.img"
                 }
