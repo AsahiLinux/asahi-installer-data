@@ -171,7 +171,7 @@
             "default_os_name": "UEFI boot",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "uefi-only-20260810-asahi-7.1.6-1.zip",
+            "package": "uefi-only-20260905-asahi-7.1.12-1.zip",
             "supported_fw": [
                 "13.5",
                 "14.8.3"
